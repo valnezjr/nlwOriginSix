@@ -172,6 +172,7 @@ main {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  width: 20rem;
   max-width: 40rem;
 }
 
