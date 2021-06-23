@@ -142,7 +142,7 @@ main {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  max-width: 50rem;
+  max-width: 45rem;
 }
 
 #home .text {
