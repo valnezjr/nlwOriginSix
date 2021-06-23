@@ -7,6 +7,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 img {
@@ -49,22 +50,18 @@ h1 {
 .divider-1 {
   height: 2px;
   background: #ffd343;
-  );
 }
 
 .menu {
-  font-size: 5rem;
-  position: sticky;
-  margin-top: -2.5rem;
+  font-size: 1rem;
+  position: grid;
   align-items: center;
   color: white;
   transition: color 0.3s;
-  transition: font-size 0.3s;
 }
 
 .menu:hover {
   color: #ffd343;
-  font-size: 5.5rem;
 }
 /*====  LAYOUT ============================ */
 .container {
@@ -155,6 +152,7 @@ main {
 }
 
 /*==== ABOUTUS ===========*/
+
 #aboutus {
   overflow: hidden;
 }
@@ -183,5 +181,51 @@ main {
 }
 
 #aboutus .text p {
+  display: block;
   margin-bottom: 2rem;
+  max-width: 40rem;
+  min-width: 24rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+/*==== FINDUS =================*/
+#products {
+  overflow: hidden;
+}
+#products .image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 15rem;
+  max-width: 40rem;
+  
+
+}
+
+#grilled {
+  border-radius: 200rem;
+}
+#products .container {
+  margin: 0;
+}
+
+#products .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: center;
+}
+
+#products .text h2 {
+  margin-bottom: 1rem;
+  margin-top: 4.5rem;
+}
+
+#products .text p {
+  display: block;
+  margin-bottom: 2rem;
+  max-width: 40rem;
+  min-width: 24rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
