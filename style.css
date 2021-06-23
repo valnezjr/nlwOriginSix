@@ -14,11 +14,6 @@ img {
   height: auto;
 }
 
-/*====  VARIABLES ============================ */
-:root {
-  --header-height: 4.5rem;
-}
-
 /*====  BASE ============================ */
 body {
   font: 400 1rem 'DM Sans', sans-serif;
@@ -87,7 +82,7 @@ h1 {
 }
 
 #header {
-   border-bottom: 2px solid #ffd343;
+  border-bottom: 2px solid #ffd343;
   margin-bottom: 2rem;
   display: flex;
 
